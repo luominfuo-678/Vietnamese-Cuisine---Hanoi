@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary-color: #8B4513;
+            --secondary-color: #f4ece2;
+            --accent-color: #d2691e;
+        }
+
+        .recipe-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .recipe-header {
+            text-align: center;
+            border-bottom: 2px dashed var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .recipe-header h1 {
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .meta-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-style: italic;
+            color: #666;
+        }
+
+        .section-title {
+            color: var(--accent-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 10px;
+            margin: 25px 0 15px;
+        }
+
+        .ingredients-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            background: var(--secondary-color);
+            padding: 20px;
+            border-radius: 10px;
+            list-style-type: "🍲 ";
+        }
+
+        .steps-list {
+            padding-left: 20px;
+        }
+
+        .steps-list li {
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+
+        .steps-list li strong {
+            color: var(--primary-color);
+        }
+
+        .secret-tip {
+            background: #fff3cd;
+            border-right: 5px solid #ffc107;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        /* Responsive cho điện thoại */
+        @media (max-width: 600px) {
+            .ingredients-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="recipe-container">
+    <div class="recipe-header">
+        <h1>Bí Quyết Phở Bò Truyền Thống</h1>
+        <div class="meta-info">
+            <span>⏱ Thời gian: 6 - 8 tiếng</span>
+            <span>🔥 Độ khó: Trung bình</span>
+        </div>
+    </div>
+
+    <h2 class="section-title">Nguyên Liệu Chuẩn Vị</h2>
+    <ul class="ingredients-list">
+        <li>500g Bánh phở tươi</li>
+        <li>1kg Xương ống bò</li>
+        <li>500g Thăn bò/Nạm bò</li>
+        <li>Gừng, hành tím khô</li>
+        <li>Hoa hồi, quế, thảo quả</li>
+        <li>Hành lá, rau mùi, húng quế</li>
+        <li>Gia vị: Nước mắm, muối, đường phèn</li>
+        <li>Tương ớt, chanh, tỏi ngâm</li>
+    </ul>
+
+    <h2 class="section-title">Các Bước Thực Hiện</h2>
+    <ol class="steps-list">
+        <li>
+            <strong>Sơ chế & Hầm xương:</strong> Rửa sạch xương bò, chần qua nước sôi để khử mùi. Sau đó ninh xương với nước sạch trong ít nhất 6 tiếng. Nhớ hớt bọt thường xuyên để nước dùng trong vắt.
+        </li>
+        <li>
+            <strong>Tạo hương thơm:</strong> Nướng gừng và hành tím cho thơm rồi rửa sạch lớp cháy vỏ. Rang nhẹ hoa hồi, quế, thảo quả trên chảo nóng cho đến khi dậy mùi thơm đặc trưng.
+        </li>
+        <li>
+            <strong>Nấu nước dùng:</strong> Cho các loại hương liệu đã nướng/rang vào nồi nước dùng. Nêm nếm bằng đường phèn và nước mắm ngon để tạo vị ngọt thanh tự nhiên thay vì dùng bột ngọt.
+        </li>
+        <li>
+            <strong>Trình bày:</strong> Chần bánh phở qua nước sôi rồi cho vào bát. Xếp thịt bò thái lát mỏng lên trên, rắc hành lá và chan nước dùng đang sôi sùng sục vào.
+        </li>
+    </ol>
+
+    <div class="secret-tip">
+        <strong>💡 Bí quyết nhỏ:</strong> Để thịt bò tái được mềm và không bị dai, hãy thái thật mỏng và dùng sống dao dần nhẹ miếng thịt trước khi xếp vào bát. Đừng quên một chút giấm tỏi để đánh thức mọi giác quan nhé!
+    </div>
+</div>
+
+</body>
+</html>
