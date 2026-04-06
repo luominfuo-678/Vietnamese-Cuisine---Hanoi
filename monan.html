@@ -2,129 +2,115 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công thức Phở Bò - Ẩm Thực Hà Nội</title>
     <style>
-
-        .recipe-container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        body {
+            background-color: #fdf5e6; 
+            font-family: Arial, sans-serif;
+            color: #333333;
             line-height: 1.6;
-            color: #333;
-        }
-
-        .recipe-header {
-            text-align: center;
-            border-bottom: 2px dashed #d2691e;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
-        }
-
-        .recipe-header h1 {
-            color: #8B4513;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 5px;
-        }
-
-        .meta-info {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            font-style: italic;
-            color: #666;
-        }
-
-        .section-title {
-            color: #d2691e;
-            border-left: 5px solid #d2691e;
-            padding-left: 10px;
-            margin: 25px 0 15px;
-        }
-
-        .ingredients-list {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            background: #f4ece2;
+            margin: 0;
             padding: 20px;
-            border-radius: 10px;
-            list-style-type: "🍲 ";
         }
 
-        .steps-list {
+     
+        .container {
+            width: 85%; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            background-color: #ffffff; 
+            padding: 40px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+        }
+
+     
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            border-bottom: 2px solid #d2691e;
+            padding-bottom: 15px;
+        }
+
+   
+        h2 {
+            color: #d2691e; 
+            border-left: 5px solid #8B4513;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+
+       
+        .nguyen-lieu {
+            background-color: #fff8f0;
+            padding: 20px;
+            border-radius: 5px;
+            list-style-type: "🍲 "; 
+        }
+
+        .nguyen-lieu li {
+            margin-bottom: 8px;
+        }
+
+
+        .cac-buoc {
             padding-left: 20px;
         }
 
-        .steps-list li {
+        .cac-buoc li {
             margin-bottom: 15px;
-            padding-left: 10px;
         }
 
-        .steps-list li strong {
+       
+        .buoc-title {
+            font-weight: bold;
             color: #8B4513;
         }
 
-        .secret-tip {
-            background: #fff3cd;
-            border-right: 5px solid #ffc107;
+   
+        .meo-nho {
+            background-color: #fff3cd; 
             padding: 15px;
+            border-left: 5px solid #ffc107;
             margin-top: 30px;
-            border-radius: 5px;
-        }
-
-        @media (max-width: 600px) {
-            .ingredients-list {
-                grid-template-columns: 1fr;
-            }
+            font-style: italic;
         }
     </style>
 </head>
 <body>
 
-<div class="recipe-container">
-    <div class="recipe-header">
-        <h1>Bí Quyết Phở Bò Truyền Thống</h1>
-        <div class="meta-info">
-            <span>⏱ Thời gian: 6 - 8 tiếng</span>
-            <span>🔥 Độ khó: Trung bình</span>
-        </div>
-    </div>
+<div class="container">
+    <h1>Bí Quyết Nấu Phở Bò Hà Nội</h1>
+    <p style="text-align: center; color: #666;"><em>Thời gian chuẩn bị: 6-8 tiếng | Độ khó: Vừa phải</em></p>
 
-    <h2 class="section-title">Nguyên Liệu Chuẩn Vị</h2>
-    <ul class="ingredients-list">
-        <li>500g Bánh phở tươi</li>
-        <li>1kg Xương ống bò</li>
-        <li>500g Thăn bò/Nạm bò</li>
-        <li>Gừng, hành tím khô</li>
-        <li>Hoa hồi, quế, thảo quả</li>
-        <li>Hành lá, rau mùi, húng quế</li>
-        <li>Gia vị: Nước mắm, muối, đường phèn</li>
-        <li>Tương ớt, chanh, tỏi ngâm</li>
+    <h2>Nguyên Liệu Cần Có</h2>
+    <ul class="nguyen-lieu">
+        <li>1kg xương ống bò (để ninh nước dùng trong)</li>
+        <li>500g thịt thăn bò (để làm bò tái) hoặc nạm bò</li>
+        <li>Bánh phở tươi (khoảng 500g cho 4 người ăn)</li>
+        <li>Gừng, hành tím, thảo quả, hoa hồi, quế</li>
+        <li>Hành lá, rau mùi, húng quế, chanh, ớt</li>
+        <li>Gia vị: Nước mắm ngon, muối, đường phèn</li>
     </ul>
 
-    <h2 class="section-title">Các Bước Thực Hiện</h2>
-    <ol class="steps-list">
+    <h2>Các Bước Thực Hiện</h2>
+    <ol class="cac-buoc">
         <li>
-            <strong>Sơ chế & Hầm xương:</strong> Rửa sạch xương bò, chần qua nước sôi để khử mùi. Sau đó ninh xương với nước sạch trong ít nhất 6 tiếng. Nhớ hớt bọt thường xuyên để nước dùng trong vắt.
+            <span class="buoc-title">Ninh nước dùng:</span> Xương bò rửa sạch, chần qua nước sôi rồi cho vào nồi ninh lửa nhỏ trong ít nhất 6 tiếng. Lưu ý hớt bọt liên tục để nước không bị đục.
         </li>
         <li>
-            <strong>Tạo hương thơm:</strong> Nướng gừng và hành tím cho thơm rồi rửa sạch lớp cháy vỏ. Rang nhẹ hoa hồi, quế, thảo quả trên chảo nóng cho đến khi dậy mùi thơm đặc trưng.
+            <span class="buoc-title">Nướng gia vị:</span> Gừng và hành tím đem nướng trên lửa cho thơm, sau đó rửa sạch lớp cháy đen. Hoa hồi, quế, thảo quả rang nhẹ cho dậy mùi.
         </li>
         <li>
-            <strong>Nấu nước dùng:</strong> Cho các loại hương liệu đã nướng/rang vào nồi nước dùng. Nêm nếm bằng đường phèn và nước mắm ngon để tạo vị ngọt thanh tự nhiên thay vì dùng bột ngọt.
+            <span class="buoc-title">Hoàn thiện nước dùng:</span> Cho các gia vị đã nướng/rang vào nồi nước dùng. Nêm nếm bằng nước mắm và đường phèn cho đến khi vừa miệng.
         </li>
         <li>
-            <strong>Trình bày:</strong> Chần bánh phở qua nước sôi rồi cho vào bát. Xếp thịt bò thái lát mỏng lên trên, rắc hành lá và chan nước dùng đang sôi sùng sục vào.
+            <span class="buoc-title">Thưởng thức:</span> Chần bánh phở cho vào bát, xếp thịt bò thái mỏng lên trên, rắc hành lá rồi chan nước dùng đang sôi vào.
         </li>
     </ol>
 
-    <div class="secret-tip">
-        <strong>💡 Bí quyết nhỏ:</strong> Để thịt bò tái được mềm và không bị dai, hãy thái thật mỏng và dùng sống dao dần nhẹ miếng thịt trước khi xếp vào bát. Đừng quên một chút giấm tỏi để đánh thức mọi giác quan nhé!
+    <div class="meo-nho">
+        <strong>Mẹo từ bếp trưởng:</strong> Để nước dùng phở thơm đúng điệu, bạn không nên dùng bột ngọt mà hãy tận dụng vị ngọt thanh từ xương bò và đường phèn. Đừng quên ăn kèm với một chút tương ớt Bắc và giấm tỏi tự làm nhé!
     </div>
 </div>
 
