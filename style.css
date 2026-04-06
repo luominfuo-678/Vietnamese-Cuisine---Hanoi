@@ -1,0 +1,207 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+ 
+body {
+   font-family: palatino, serif;
+   line-height: 1.6;
+   color: #161616;
+   background-color: #f2f1ed;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   font-size: 1em;
+}
+ 
+header {
+   text-align: center;
+   margin-bottom: 40px;
+   border-bottom: 3px inset #7e2625;
+   padding-bottom: 20px;
+}
+ 
+
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+ 
+nav a {
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+   font-size: 1.1em;
+   display: inline-block;
+   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+ 
+nav a:hover {
+   color: #743014;
+   text-decoration: underline;
+   transform: scale(1.1);
+}
+
+.audio-container {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: #a81d16;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+.audio-container p {
+    text-align: center;
+    font-weight: bold;
+    color: #fcf8ac;
+    margin-bottom: 10px;
+    text-indent: 0;
+}
+.audio-container audio {
+    width: 80%;
+    max-width: 500px;
+    outline: none;
+}
+ 
+ 
+main {
+   margin-bottom: 40px;
+}
+ 
+h2 {
+   margin-bottom: 10px;
+   color: #6e2b22;
+}
+h3{color: #792318;}
+ 
+p {
+   margin-bottom: 10px;
+   text-align: justify;
+   text-indent: 30px;
+}
+ 
+img{
+   max-width: 100%;
+   height: auto;
+   border-radius: 4px;
+   margin-bottom: 15px;
+}
+ 
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+}
+ 
+table, th, td {
+   border: 2px double #3c130f;
+}
+ 
+th, td {
+   padding: 10px;
+   text-align: center;
+   vertical-align: middle;
+}
+ 
+th {
+   background-color: #b38f6f;
+}
+td{background-color: #e8d1a7;}
+
+
+table th:nth-child(1), table td:nth-child(1) { width: 20%; } 
+table th:nth-child(2), table td:nth-child(2) { width: 45%; text-align: justify; } 
+table th:nth-child(3), table td:nth-child(3) { width: 35%; } 
+table td:nth-child(1) {font-family:Calibri; 
+font-size: 0.9 em}
+
+
+table img {
+   width: 100%;
+   max-width: 300px; 
+   height: 200px;
+   object-fit: cover; 
+   border-radius: 8px;
+   margin-bottom: 0;
+   display: Block;
+}
+ 
+form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   max-width: auto;
+}
+ 
+input, textarea {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-family: inherit;
+}
+ 
+button {
+   padding: 10px;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+ 
+button:hover {
+   background-color: #000;
+}
+ 
+footer {
+   text-align: center;
+   border-top: 1px solid #ddd;
+   padding-top: 20px;
+   font-size: 0.9em;
+   color: #777;
+}
+
+#gioithieu img {display: Block;
+    margin-left: auto;    
+    margin-right: auto;    
+    border: 1px solid #ddd; 
+    padding: 5px; 
+    box-shadow: 5px 5px 10px #888; 
+    width: 400px;
+}
+
+#khuvuc li:hover {
+  background-color: #b0d1a3; 
+  border-radius: 5px; 
+}
+
+#khuvuc li {
+  font-size: 1.1em;
+  color: #7a301a;
+  padding: 5px;
+  transition: background-color 0.3s;
+  font-weight: 550;
+}
+  
+.header-bg {
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.header-bg:hover {
+  opacity: 0.9;
+  transform: scale(1.07);
+}
+ img {display: none;}
+.img:focus + img {display: Block;}	
+header img {display: Block;}
+
+#tongket img{display:block;
+margin-bottom: 0px;
+border-radius: 0px;
+}
+#khuvuc a {font-size: 1.1em;}
