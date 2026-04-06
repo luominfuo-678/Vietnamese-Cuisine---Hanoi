@@ -204,4 +204,12 @@ header img {display: Block;}
 margin-bottom: 0px;
 border-radius: 0px;
 }
-#khuvuc a {font-size: 1.1em;}
+#khuvuc a {font-size: 1.1em;
+          color: #f5a6e4
+          }
+#gioithieu a {font-size: 1.1em;
+          color: #f5a6e4
+          }
+#monan a {font-size: 1.1em;
+          color: #f5a6e4
+          }
